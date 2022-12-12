@@ -4,81 +4,47 @@ import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="h-screen text-white bg-[url(https://www.pixelstalk.net/wp-content/uploads/images1/Desktop-dark-space-wallpaper.jpg)] bg-cover">
       <Head>
-        <title>Create Next App</title>
+        <title>Aleks</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <main>
+        <div className='pt-[50px] px-[250px]'>
+          <h1 className='font-bold text-6xl'>Hey, im <span className='text-blue'>Aleks</span></h1>
+          <p className='text-2xl pt-[20px]'>Im a 14 year old who really enjoys games, and coding.</p>
+          <p className='text-2xl'>Im currently living in the UK. I love using</p>
+          <p className='text-2xl'>javascript,java and NEXT.JS!</p>
+          <br></br>
+          <div className='pt-[25px]'>
+            <h1 className='text-4xl font-bold'>PROJECTS</h1>
+            <br></br>
+          <div className='inline-block w-[200px] h-[200px] bg-[url(https://top.gg/_next/image?url=https%3A%2F%2Fimages.discordapp.net%2Favatars%2F1030807295661187163%2F9e3497c594db10441dade5d5d076010f.png%3Fsize%3D128&w=128&q=75)] bg-cover rounded-lg hover:translate-y-[-5px] transition duration-200 ease-in-out'>
+            <h1 className='text-2xl font-bold text-center pt-[10px]'>NUCTORNO</h1>
+            <p className='text-center pt-[30px]'>A powerful bot that will help you in any need!</p>
+            <a href='https://discord.com/api/oauth2/authorize?client_id=832390209881899039&permissions=1100585757719&scope=bot%20applications.commands' className='flex justify-center pt-[30px]'><button className='w-[180px] h-[40px] rounded-full bg-black bg-opacity-50 text-white text-center hover:bg-white hover:translate-y-[-2px] hover:border-white hover:text-black transition duration-500 ease-in-out'>Invite</button></a>
+          </div>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+          <div className='ml-20 inline-block w-[200px] h-[200px] bg-blue rounded-lg hover:translate-y-[-5px] transition duration-200 ease-in-out'>
+          <h1 className='text-1xl font-bold text-center pt-[20px]'>PROXY - STUDIOS</h1>
+          <p className='text-center pt-[30px]'>A group of people making bots and having fun</p>
+            <a href='https://discord.gg/Fwy6M9HNTs' className='flex justify-center pt-[30px]'><button className='w-[180px] h-[40px] rounded-full bg-black bg-opacity-50 text-white text-center hover:bg-white hover:translate-y-[-2px] hover:border-white hover:text-black transition duration-500 ease-in-out'>Join</button></a>
+          </div>
+          </div>
+          <div className='pt-[55px]'>
+          <h1 className='text-4xl font-bold'>SOCIALS</h1>
+          <div className='pt-[10px]'>
+        <a href='https://discord.gg/Fwy6M9HNTs' className='inline-block'> <div className='w-[100px] h-[100px] bg-[#7289DA] rounded-lg hover:translate-y-[-5px] transition duration-200 ease-in-out'>
+          <h1 className='translate-y-[37px] text-center'>Discord</h1>
+        </div></a> 
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <a href='https://github.com/AleksDevsCode' className='ml-12 inline-block'> <div className='w-[100px] h-[100px] bg-[#6e5494] rounded-lg hover:translate-y-[-5px] transition duration-200 ease-in-out'>
+          <h1 className='translate-y-[37px] text-center'>Github</h1>
+        </div></a> 
+          </div>
+        </div>
         </div>
       </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
   )
 }
